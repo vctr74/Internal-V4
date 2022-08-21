@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Header Files\Client.h" />
+    <ClInclude Include="Header Files\Backend\WindowsHooks.h" />
+    <ClInclude Include="Header Files\Backend\Utility\Memory.h" />
+    <ClInclude Include="Header Files\Backend\Utility\XorString.h" />
+    <ClInclude Include="Header Files\Game\Anvil.hh" />
+    <ClInclude Include="Header Files\Backend\Utility\DynamicPad.h" />
+    <ClInclude Include="Header Files\Backend\Utility\Vectors.h" />
+    <ClInclude Include="Header Files\Backend\Utility\Math.h" />
+    <ClInclude Include="Header Files\Backend\PresentHook\PresentHook.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\imconfig.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\imgui.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\imgui_internal.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\imstb_truetype.h" />
+    <ClInclude Include="Header Files\Backend\Includes\MinHook\MinHook.h" />
+    <ClInclude Include="Header Files\Backend\Renderer\Renderer.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\AddOns\Font.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\AddOns\imgui_animated.h" />
+    <ClInclude Include="Header Files\Backend\Includes\ImGui\AddOns\imguipp.h" />
+    <ClInclude Include="Header Files\UserInterface.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="Header Files\Backend\Includes\ImGui\imgui.cpp" />
+    <ClCompile Include="Header Files\Backend\Includes\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Header Files\Backend\Includes\ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Header Files\Backend\Includes\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Header Files\Backend\Includes\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="Header Files\Backend\Includes\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Header Files\Backend\Includes\ImGui\AddOns\imgui_animated.cpp" />
+  </ItemGroup>
+</Project>
